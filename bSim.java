@@ -41,16 +41,6 @@ public class bSim extends GraphicsProgram{
 			aBall iball = new aBall((WIDTH/2)/SCALE, iSize, iVel, iTheta ,iSize ,iColor ,iLoss);
 			add(iball.myBall);
 			iball.start();
-			
-//			Question 2
-//			aBall iball = new aBall(5.0, 1.0, 40.0, 85.0,1.0 ,Color.RED ,0.4);
-//			add(iball.myBall);
-//			iball.start();
-			
-//			Question 3
-//			aBall iball = new aBall(95.0, 1.0, 40.0, 95.0 ,1.0 ,Color.RED ,0.4);
-//			add(iball.myBall);
-//			iball.start();
 		}
 	}
 }
